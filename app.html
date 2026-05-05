@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://pl29341632.profitablecpmratenetwork.com/7e/24/49/7e2449ddf2b232463b0e7a9ce1735c48.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Apps - Free Download</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            min-height: 100vh;
+        }
+
+        /* Splash Screen */
+        .splash-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            animation: fadeOut 0.5s ease 2.5s forwards;
+        }
+
+        .splash-content {
+            text-align: center;
+        }
+
+        .splash-logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            animation: bounce 1.5s ease infinite;
+        }
+
+        .splash-title {
+            font-size: 2rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .splash-subtitle {
+            color: #b8b8d4;
+            font-size: 1rem;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes fadeOut {
+            to { 
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        /* Header */
+        .header {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-section img {
+            width: 45px;
+            height: 45px;
+            border-radius: 12px;
+        }
+
+        .logo-section h1 {
+            color: white;
+            font-size: 1.5rem;
+            background: linear-gradient(45deg, #f09433, #e6683c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            color: white;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn-telegram {
+            background: linear-gradient(45deg, #0088cc, #00aced);
+        }
+
+        .btn-telegram:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0, 136, 204, 0.4);
+        }
+
+        .btn-admin {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-admin:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Welcome Banner */
+        .welcome-banner {
+            background: linear-gradient(135deg, rgba(240, 148, 51, 0.1), rgba(230, 104, 60, 0.1));
+            border: 1px solid rgba(240, 148, 51, 0.3);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .welcome-banner h2 {
+            color: white;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .welcome-banner p {
+            color: #b8b8d4;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .premium-badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #feca57, #ff9ff3);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: white;
+            margin-top: 10px;
+        }
+
+        /* Search & Filter */
+        .search-filter-section {
+            margin-bottom: 25px;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .search-box input {
+            flex: 1;
+            min-width: 250px;
+            padding: 15px 20px;
+            border-radius: 50px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            color: white;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .search-box input:focus {
+            border-color: #f09433;
+            box-shadow: 0 0 20px rgba(240, 148, 51, 0.2);
+        }
+
+        .search-box input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .category-filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .category-btn {
+            padding: 8px 18px;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.85rem;
+        }
+
+        .category-btn:hover, .category-btn.active {
+            background: linear-gradient(45deg, #f09433, #e6683c);
+            border-color: transparent;
+            transform: translateY(-2px);
+        }
+
+        /* Apps Grid */
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .app-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(240, 148, 51, 0.5);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .app-card.premium::before {
+            content: 'PREMIUM';
+            position: absolute;
+            top: 15px;
+            right: -30px;
+            background: linear-gradient(45deg, #feca57, #ff9ff3);
+            padding: 5px 40px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            color: white;
+            transform: rotate(45deg);
+        }
+
+        .app-header {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .app-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 18px;
+            overflow: hidden;
+            flex-shrink: 0;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .app-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .app-name {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .app-category {
+            color: #f09433;
+            font-size: 0.8rem;
+            margin-bottom: 5px;
+        }
+
+        .app-rating {
+            color: #feca57;
+            font-size: 0.9rem;
+        }
+
+        .app-description {
+            color: #b8b8d4;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            margin-bottom: 15px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .app-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 0.8rem;
+            color: #b8b8d4;
+        }
+
+        .app-size {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 3px 10px;
+            border-radius: 12px;
+        }
+
+        .app-version {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 3px 10px;
+            border-radius: 12px;
+        }
+
+        .app-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-download {
+            flex: 1;
+            background: linear-gradient(45deg, #00b894, #00cec9);
+            padding: 12px;
+            border-radius: 25px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 0.9rem;
+            animation: pulse 2s infinite;
+        }
+
+        .btn-download:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 20px rgba(0, 184, 148, 0.4);
+        }
+
+        .btn-details {
+            padding: 12px 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-details:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(0, 184, 148, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(0, 184, 148, 0); }
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background: #24243e;
+            border-radius: 20px;
+            padding: 25px;
+            width: 100%;
+            max-width: 450px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .modal-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            margin: 0 auto 15px;
+        }
+
+        .modal-content h3 {
+            color: white;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        .modal-content p {
+            color: #b8b8d4;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+
+        .modal-download-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(45deg, #00b894, #00cec9);
+            border: none;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .modal-download-btn:hover {
+            box-shadow: 0 10px 25px rgba(0, 184, 148, 0.4);
+        }
+
+        .modal-close {
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            padding: 10px 25px;
+            border-radius: 20px;
+            color: white;
+            cursor: pointer;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            color: white;
+            padding: 50px;
+            grid-column: 1/-1;
+        }
+
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(255, 255, 255, 0.1);
+            border-top: 5px solid #f09433;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            z-index: 2000;
+            animation: slideIn 0.3s ease;
+            display: none;
+            max-width: 350px;
+        }
+
+        .toast-success { background: rgba(0, 184, 148, 0.9); }
+        .toast-error { background: rgba(255, 107, 107, 0.9); }
+        .toast-info { background: rgba(72, 219, 251, 0.9); }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #b8b8d4;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: #f09433;
+            text-decoration: none;
+        }
+
+        /* No Results */
+        .no-results {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            grid-column: 1/-1;
+        }
+
+        .no-results .emoji {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .header-buttons {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .apps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .search-box {
+                flex-direction: column;
+            }
+
+            .category-filters {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div class="splash-screen" id="splashScreen">
+        <div class="splash-content">
+            <img src="https://via.placeholder.com/100/FF6B6B/FFFFFF?text=PA" 
+                 class="splash-logo" alt="Logo" id="splashLogo">
+            <h1 class="splash-title" id="splashTitle">Premium Apps</h1>
+            <p class="splash-subtitle">Free Download</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="https://via.placeholder.com/45/FF6B6B/FFFFFF?text=PA" alt="Logo" id="headerLogo">
+                <h1 id="siteName">Premium Apps</h1>
+            </div>
+            <div class="header-buttons">
+                <a href="#" class="btn btn-telegram" id="telegramBtn">
+                    📢 Join Telegram
+                </a>
+              
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Welcome Banner ->
+        <div class="welcome-banner">
+            <h2>🎉 Premium Apps Free Download!</h2>
+            <p>All premium and modded apps available for free!</p>
+            <span class="premium-badge">⚡ 100% Free & Safe</span>
+        </div>
+
+        <!-- Search & Filter -->
+        <div class="search-filter-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Search apps by name..." onkeyup="filterApps()">
+            </div>
+            <div class="category-filters" id="categoryFilters">
+                <button class="category-btn active" onclick="filterByCategory('all')">📱 All Apps</button>
+                <!-- Categories will be loaded dynamically -->
+            </div>
+        </div>
+
+        <!-- Apps Grid -->
+        <div class="apps-grid" id="appsContainer">
+            <div class="loading">
+                <div class="loader"></div>
+                <p>Loading premium apps...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Download Modal -->
+    <div class="modal" id="downloadModal">
+        <div class="modal-content">
+            <img src="" class="modal-icon" id="modalIcon" alt="App Icon">
+            <h3 id="modalName">App Name</h3>
+            <p id="modalDescription">App Description</p>
+            <button class="modal-download-btn" id="modalDownloadBtn" onclick="startDownload()">
+                ⬇️ Download Now (Free)
+            </button>
+            <button class="modal-close" onclick="closeModal()">Cancel</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2024 <span id="footerName">Premium Apps</span>. All apps are for educational purposes only.</p>
+        <p>Join our <a href="#" id="footerTelegram">Telegram Channel</a> for updates</p>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database-compat.js"></script>
+
+    <script>
+        // Firebase Configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyCi0swHUNFwbBlYIn0SqQOv7kIpeicCDR0",
+            authDomain: "tools-ai-75916.firebaseapp.com",
+            databaseURL: "https://tools-ai-75916-default-rtdb.firebaseio.com",
+            projectId: "tools-ai-75916",
+            storageBucket: "tools-ai-75916.firebasestorage.app",
+            messagingSenderId: "370558941971",
+            appId: "1:370558941971:android:7adb8bc8289aa3c86c78e6"
+        };
+
+        // Firebase Initialize
+        firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+
+        let allApps = [];
+        let currentDownloadUrl = '';
+        let currentAppName = '';
+        let siteSettings = {};
+
+        // Toast
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = `toast toast-${type}`;
+            toast.style.display = 'block';
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 3000);
+        }
+
+        // Load Site Settings
+        function loadSiteSettings() {
+            const settingsRef = database.ref('site_settings');
+            settingsRef.on('value', (snapshot) => {
+                if (snapshot.exists()) {
+                    siteSettings = snapshot.val();
+                    updateSiteUI();
+                } else {
+                    // Default settings
+                    siteSettings = {
+                        site_name: 'Premium Apps',
+                        site_logo: 'https://via.placeholder.com/100/FF6B6B/FFFFFF?text=PA',
+                        telegram_url: 'https://t.me/yourchannel',
+                        site_description: 'Premium Apps Free Download'
+                    };
+                    updateSiteUI();
+                }
+            });
+        }
+
+        function updateSiteUI() {
+            document.getElementById('splashTitle').textContent = siteSettings.site_name || 'Premium Apps';
+            document.getElementById('siteName').textContent = siteSettings.site_name || 'Premium Apps';
+            document.getElementById('footerName').textContent = siteSettings.site_name || 'Premium Apps';
+            document.getElementById('splashLogo').src = siteSettings.site_logo || 'https://via.placeholder.com/100/FF6B6B/FFFFFF?text=PA';
+            document.getElementById('headerLogo').src = siteSettings.site_logo || 'https://via.placeholder.com/45/FF6B6B/FFFFFF?text=PA';
+            document.title = siteSettings.site_name || 'Premium Apps - Free Download';
+            
+            // Update Telegram links
+            const telegramUrl = siteSettings.telegram_url || '#';
+            document.getElementById('telegramBtn').href = telegramUrl;
+            document.getElementById('footerTelegram').href = telegramUrl;
+        }
+
+        // Load Categories
+        function loadCategories() {
+            const categoriesRef = database.ref('categories');
+            categoriesRef.on('value', (snapshot) => {
+                const categoryContainer = document.getElementById('categoryFilters');
+                categoryContainer.innerHTML = '<button class="category-btn active" onclick="filterByCategory(\'all\')">📱 All Apps</button>';
+                
+                if (snapshot.exists()) {
+                    const categories = snapshot.val();
+                    Object.keys(categories).forEach(key => {
+                        const category = categories[key];
+                        categoryContainer.innerHTML += `
+                            <button class="category-btn" onclick="filterByCategory('${category.name}')">
+                                ${category.icon || '📦'} ${category.name}
+                            </button>
+                        `;
+                    });
+                }
+            });
+        }
+
+        // Load Apps
+        function loadApps() {
+            const appsRef = database.ref('apps');
+            const appsContainer = document.getElementById('appsContainer');
+            
+            appsRef.on('value', (snapshot) => {
+                appsContainer.innerHTML = '';
+                
+                if (snapshot.exists()) {
+                    allApps = [];
+                    const apps = snapshot.val();
+                    const appKeys = Object.keys(apps);
+                    
+                    if (appKeys.length === 0) {
+                        appsContainer.innerHTML = `
+                            <div class="no-results">
+                                <div class="emoji">📦</div>
+                                <p>No apps available yet!</p>
+                                <p style="color: #b8b8d4; margin-top: 10px;">Please check back later for new apps.</p>
+                            </div>
+                        `;
+                        return;
+                    }
+                    
+                    // Sort by newest first
+                    appKeys.reverse();
+                    
+                    appKeys.forEach((key) => {
+                        const app = apps[key];
+                        allApps.push({ key, ...app });
+                        
+                        const isPremium = app.is_premium !== false; // Default premium true
+                        
+                        const appCard = `
+                            <div class="app-card ${isPremium ? 'premium' : ''}" 
+                                 data-name="${(app.name || '').toLowerCase()}"
+                                 data-category="${(app.category || '').toLowerCase()}">
+                                <div class="app-header">
+                                    <div class="app-icon">
+                                        <img src="${app.icon || 'https://via.placeholder.com/70/FF6B6B/FFFFFF?text=App'}" 
+                                             alt="${app.name || 'App'}"
+                                             onerror="this.src='https://via.placeholder.com/70/FF6B6B/FFFFFF?text=App'">
+                                    </div>
+                                    <div class="app-info">
+                                        <h3 class="app-name">${app.name || 'Unknown App'}</h3>
+                                        <p class="app-category">${app.category || 'General'}</p>
+                                        <p class="app-rating">
+                                            ⭐ ${app.rating || '4.5'} 
+                                            <span style="color: #b8b8d4;">(${app.downloads || '0'} downloads)</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="app-description">${app.description || 'No description available'}</p>
+                                <div class="app-meta">
+                                    <span class="app-size">📦 ${app.size || 'N/A'}</span>
+                                    <span class="app-version">v${app.version || '1.0'}</span>
+                                </div>
+                                <div class="app-actions">
+                                    <button class="btn btn-download" onclick="openDownloadModal('${key}')">
+                                        ⬇️ Free Download
+                                    </button>
+                                    <button class="btn btn-details" onclick="shareApp('${app.name}', '${app.download_url || ''}')">
+                                        📤
+                                    </button>
+                                </div>
+                            </div>
+                        `;
+                        
+                        appsContainer.innerHTML += appCard;
+                    });
+                } else {
+                    appsContainer.innerHTML = `
+                        <div class="no-results">
+                            <div class="emoji">📦</div>
+                            <p>No apps found in database!</p>
+                            <p style="color: #b8b8d4; margin-top: 10px;">Add apps to Firebase to display here.</p>
+                        </div>
+                    `;
+                }
+            }, (error) => {
+                console.error('Error loading apps:', error);
+                appsContainer.innerHTML = `
+                    <div class="no-results">
+                        <div class="emoji">❌</div>
+                        <p>Error loading apps!</p>
+                        <p style="color: #ff6b6b; margin-top: 10px;">Please check Firebase connection.</p>
+                    </div>
+                `;
+            });
+        }
+
+        // Filter Apps
+        function filterApps() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+            const activeCategory = document.querySelector('.category-btn.active');
+            const category = activeCategory ? activeCategory.textContent.trim().toLowerCase() : 'all';
+            
+            const appCards = document.querySelectorAll('.app-card');
+            
+            appCards.forEach(card => {
+                const appName = card.getAttribute('data-name');
+                const appCategory = card.getAttribute('data-category');
+                
+                let showBySearch = !searchTerm || (appName && appName.includes(searchTerm));
+                let showByCategory = category === '📱 all apps' || (appCategory && appCategory.includes(category.replace(/[📱📦🎮🛠️📸🎵📚]/g, '').trim().toLowerCase()));
+                
+                if (showBySearch && showByCategory) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            
+            // Show no results message
+            const visibleCards = document.querySelectorAll('.app-card[style*="display: block"], .app-card:not([style*="display: none"])');
+            const existingNoResults = document.querySelector('.filter-no-results');
+            
+            if (visibleCards.length === 0 && !existingNoResults) {
+                const noResultsDiv = document.createElement('div');
+                noResultsDiv.className = 'no-results filter-no-results';
+                noResultsDiv.innerHTML = `
+                    <div class="emoji">🔍</div>
+                    <p>No apps found matching your search!</p>
+                    <p style="color: #b8b8d4; margin-top: 10px;">Try different keywords or category.</p>
+                `;
+                document.getElementById('appsContainer').appendChild(noResultsDiv);
+            } else if (visibleCards.length > 0 && existingNoResults) {
+                existingNoResults.remove();
+            }
+        }
+
+        function filterByCategory(category) {
+            // Update active button
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            filterApps();
+        }
+
+        // Download Modal
+        function openDownloadModal(appKey) {
+            const appRef = database.ref(`apps/${appKey}`);
+            appRef.once('value', (snapshot) => {
+                if (snapshot.exists()) {
+                    const app = snapshot.val();
+                    
+                    document.getElementById('modalIcon').src = app.icon || 'https://via.placeholder.com/80/FF6B6B/FFFFFF?text=App';
+                    document.getElementById('modalName').textContent = app.name;
+                    document.getElementById('modalDescription').textContent = app.description || 'Download this premium app for free!';
+                    
+                    currentDownloadUrl = app.download_url;
+                    currentAppName = app.name;
+                    
+                    document.getElementById('downloadModal').style.display = 'flex';
+                }
+            });
+        }
+
+        function startDownload() {
+            if (currentDownloadUrl && currentDownloadUrl !== '') {
+                // Track download
+                const downloadsRef = database.ref('analytics/downloads');
+                downloadsRef.push({
+                    app_name: currentAppName,
+                    timestamp: new Date().toISOString(),
+                    user_agent: navigator.userAgent
+                });
+                
+                showToast(`⬇️ Downloading ${currentAppName}...`, 'info');
+                
+                // Open download link
+                setTimeout(() => {
+                    window.open(currentDownloadUrl, '_blank');
+                    closeModal();
+                    showToast('✅ Download started! Enjoy the premium app!', 'success');
+                }, 500);
+            } else {
+                showToast('⚠️ Download link not available!', 'error');
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('downloadModal').style.display = 'none';
+            currentDownloadUrl = '';
+            currentAppName = '';
+        }
+
+        // Share App
+        function shareApp(appName, downloadUrl) {
+            if (navigator.share) {
+                navigator.share({
+                    title: appName,
+                    text: `Download ${appName} for free! Premium app unlocked! 🎉`,
+                    url: window.location.href,
+                }).catch(() => {});
+            } else {
+                navigator.clipboard.writeText(window.location.href).then(() => {
+                    showToast('✅ Link copied! Share with friends!', 'success');
+                }).catch(() => {
+                    prompt('Share this link:', window.location.href);
+                });
+            }
+        }
+
+        // Close modal on outside click
+        window.onclick = function(event) {
+            if (event.target.className === 'modal') {
+                closeModal();
+            }
+        }
+
+        // Initialize
+        window.addEventListener('DOMContentLoaded', () => {
+            console.log('🚀 Premium Apps Loading...');
+            loadSiteSettings();
+            loadCategories();
+            loadApps();
+            
+            // Hide splash screen
+            setTimeout(() => {
+                document.getElementById('splashScreen').style.display = 'none';
+            }, 2500);
+        });
+    </script>
+</body>
+</html>
